@@ -1,0 +1,29 @@
+.navbar {
+
+    background-color: rgb(66, 66, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h1 {
+
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-left: 100px;
+
+}
+
+li {
+    color: rgb(151, 222, 233);
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+body{
+    margin: 0px;
+   }
