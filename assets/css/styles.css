@@ -4,15 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 h1 {
 
     font-size: 50px;
     font-weight: 600;
-    color: white;
+    color: rgb(66, 66, 70);
     margin-left: 100px;
+    background-color:rgb(151, 222, 233);
+    
 
 }
 
@@ -24,6 +26,28 @@ li {
     margin-right: 50px;
 }
 
-body{
+body {
     margin: 0px;
-   }
+}
+
+img {
+
+    width: 1727px;
+    height: 300px;
+}
+
+h2 {
+    color: rgb(52, 68, 129);
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+p {
+    color: rgb(52, 68, 129);
+    height: 200px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
