@@ -127,15 +127,16 @@ a {
     line-height: 100px;
     border: 8px solid rgb(151, 222, 233);
     background-image: url(/assets/images/893.jpg);
-    cursor: pointer;
+
     min-height: 700px;
-    max-height: 150px;
     flex-basis: calc(80%);
     align-items: flex-end;
-    padding: 0 0 20px 0;
-   
-    
-    
+
+
+
+
+
+
 }
 
 .big-card:hover {
@@ -152,6 +153,8 @@ a {
     gap: 1rem;
     margin: 1rem;
     width: 100%;
+    line-height: 100px;
+
 }
 
 .card {
@@ -163,7 +166,6 @@ a {
     flex-basis: calc(40%);
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
     background: url(/assets/images/neon.jpg);
 
 }
@@ -174,4 +176,3 @@ a {
     transition: 850ms;
 
 }
-
