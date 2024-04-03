@@ -15,4 +15,4 @@ This is a personal portfolio for my UCF bootcamp. Created from scratch, applying
 
 ## Links
 
-For access to deployed website [Click Here](https://parryprogramming.github.io/code_refactor/)
+For access to deployed website [Click Here](https://parryprogramming.github.io/personal_portfolio/)
