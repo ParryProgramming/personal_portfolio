@@ -4,15 +4,37 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 2570px;
+    width: 100%;
+}
 
+.nav-about {
+
+    background-color: rgb(66, 66, 70);
+    color: aqua;
+}
+
+.nav-work {
+
+    background-color: rgb(66, 66, 70);
+    color: aqua;
+}
+
+.nav-contact {
+
+    background-color: rgb(66, 66, 70);
+    color: aqua;
+}
+
+.nav-resume {
+
+    background-color: rgb(66, 66, 70);
+    color: aqua;
 }
 
 .image-container {
 
     position: relative;
     display: inline-block;
-
 }
 
 .overlay-text {
@@ -22,13 +44,13 @@
     font-weight: 600;
     position: absolute;
     top: 80%;
-    left: 90%;
-    transform: translate(-50%, -50%);
+    left: 80%;
     background-color: rgb(141, 201, 210);
     color: rgb(52, 68, 129);
     padding: 5px;
-    font-size: 20px;
-
+    font-size: 30px;
+    margin-left: 40px;
+    
 }
 
 h1 {
@@ -39,16 +61,13 @@ h1 {
     background-color: rgb(151, 222, 233);
     padding-left: 50px;
     padding-right: 20px;
-
-
 }
 
 li {
     color: rgb(151, 222, 233);
-    font-size: 25px;
     list-style: none;
     display: inline;
-    margin-right: 50px;
+    margin-right: 20px;
     text-decoration: underline;
     font-size: 30px;
 }
@@ -59,9 +78,9 @@ body {
 }
 
 img {
-    width: 2570px;
+    width: 2560px;
     height: 300px;
-    display: inline-block;
+    
 }
 
 h2 {
@@ -76,7 +95,7 @@ h2 {
 
 p {
     color: rgb(52, 68, 129);
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -98,7 +117,6 @@ section>div {
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-
 }
 
 div {
@@ -114,8 +132,6 @@ a {
     padding-bottom: 50px;
     font-size: 25px;
     font-weight: 200;
-
-
 }
 
 .big-card {
@@ -123,56 +139,111 @@ a {
     display: flex;
     text-align: center;
     font-size: 20px;
-    font-weight: 900px;
-    line-height: 100px;
+    line-height: 90px;
     border: 8px solid rgb(151, 222, 233);
     background-image: url(/assets/images/893.jpg);
-
-    min-height: 700px;
-    flex-basis: calc(80%);
+    min-height: 300px;
+    flex-basis: calc(100%);
     align-items: flex-end;
-
-
-
-
-
-
+    margin-right: 15px;
 }
 
 .big-card:hover {
     box-shadow: black;
     transition: 700ms;
-
 }
 
 .small-cards {
 
     display: flex;
-    justify-content: start;
+    justify-content: end;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1rem;
+    padding: 0 1px 0 10px;
+    gap: 2rem;
     margin: 1rem;
     width: 100%;
-    line-height: 100px;
+    line-height: 90px;
+    margin-left: -10px;
 
 }
 
 .card {
-    border: 8px solid rgb(151, 222, 233);
+    border: 9px solid rgb(151, 222, 233);
     background-color: aliceblue;
     color: black;
-    min-height: 200px;
-    max-height: 200px;
-    flex-basis: calc(40%);
+    min-height: 300px;
+    max-height: 20px;
+    flex-basis: calc(50% - 35px);
     display: flex;
     align-items: flex-end;
     background: url(/assets/images/neon.jpg);
-
 }
 
 .card:hover {
-
     box-shadow: red;
     transition: 850ms;
+}
+
+footer {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100%;
+    width: 100%;
+    margin-top: -150px;
+    margin-left: 350px;
+    word-spacing: 200px;
+
+
+
+
+}
+
+.number {
+
+    color: rgb(52, 68, 129);
+    background-color: white;
+    font-size: 30px;
+
+
+
+}
+
+.email {
+    color: rgb(52, 68, 129);
+    background-color: white;
+    font-size: 30px;
+}
+
+.github {
+    color: rgb(52, 68, 129);
+    background-color: white;
+    font-size: 30px;
+}
+
+.twitter {
+    color: rgb(52, 68, 129);
+    background-color: white;
+    font-size: 30px;
+
+}
+
+.spotify {
+    color: rgb(52, 68, 129);
+    background-color: white;
+    font-size: 30px;
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        color: red;
+    }
 
 }
