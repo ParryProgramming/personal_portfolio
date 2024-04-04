@@ -130,7 +130,7 @@ a {
     font-size: 20px;
     line-height: 90px;
     border: 8px solid rgb(151, 222, 233);
-    background-image: url(/assets/images/893.jpg);
+    background-image: url(assets/images/893.jpg);
     min-height: 300px;
     flex-basis: calc(100%);
     align-items: flex-end;
@@ -164,7 +164,7 @@ a {
     flex-basis: calc(50% - 35px);
     display: flex;
     align-items: flex-end;
-    background: url(/assets/images/neon.jpg);
+    background: url(assets/images/neon.jpg);
 }
 
 .card:hover {
